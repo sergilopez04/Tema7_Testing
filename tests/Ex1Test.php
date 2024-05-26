@@ -1,7 +1,8 @@
 <?php
+require_once 'src/Ex1.php';
 use PHPUnit\Framework\TestCase;
 
-class NumberCheckerTest extends TestCase{
+class Ex1Test extends TestCase{
     public function testIsEven(){
         $numberChecker = new NumberChecker(8);
         $this->assertTrue($numberChecker->isEven());
